@@ -18,3 +18,5 @@ console.log(age, year, point, score);
 const min = 78
 min = 90;
 console.log("min is", min);
+var time = 50
+console.log("time is", time);
