@@ -92,3 +92,6 @@ console.log("likes after -=5 and /=2 are", likes);
 
 console.log("hello" - 3);
 console.log(8 / "hello");
+//numbers in the string
+let viewers = ' the blog has ' + likes + " likes"
+console.log(viewers);
