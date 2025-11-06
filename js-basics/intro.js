@@ -17,6 +17,7 @@ when they are same data types*/
 //constants and variables do not change value on next console//
 //const min = 78
 //min = 90;
+alert("welcome Joel to this course, step by step you will master JavaScript!");
 //console.log("min is", min);
 var time = 50
 console.log("time is", time);
@@ -95,3 +96,14 @@ console.log(8 / "hello");
 //numbers in the string
 let viewers = ' the blog has ' + likes + " likes"
 console.log(viewers);
+//tempate strings
+const title = 'Best reads of 2024';
+const author = 'Munyaneza Joel';
+const views = 3000;
+//concatentation ways
+let awards = "the blog called " + title + " by " + author + " has " + views + " views";
+console.log(awards);
+
+//template string way
+awards = `the author called ${author} is the ${title} with ${views} views`;
+console.log(awards);
