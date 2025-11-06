@@ -112,3 +112,31 @@ let html = `<h2>${title}</h2>
 <p>by ${author}</p>
 <span> This blog has ${views} views </span>`;
 console.log(html);
+
+//array are created with the use iof the square brackets []
+let ninjas = ['shaun', 'ryu', 'chun-li'];
+console.log(ninjas);
+//if we want to use one of the array element
+console.log(ninjas[1]);
+//if we want to replace one of the array element
+ninjas[1] = 'ken';
+console.log(ninjas[1]);
+let age = [20, 25, 30, 35];
+console.log(age[2]);
+//array accept different data types in the single array
+let random = ['hello', 45, true];
+console.log(random);
+//array length
+console.log(ninjas.length);
+//joining the array elements
+console.log(ninjas.join(', '));
+//getting the index of an element in the array
+result = ninjas.indexOf('chun-li');
+console.log("index of chun-li is", result);
+
+let results2 = ninjas.concat(['ken', 'crystal']);
+console.log("after concatination", results2);
+
+
+
+
