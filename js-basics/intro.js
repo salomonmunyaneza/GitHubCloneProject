@@ -107,3 +107,8 @@ console.log(awards);
 //template string way
 awards = `the author called ${author} is the ${title} with ${views} views`;
 console.log(awards);
+//creating html string
+let html = `<h2>${title}</h2>
+<p>by ${author}</p>
+<span> This blog has ${views} views </span>`;
+console.log(html);
