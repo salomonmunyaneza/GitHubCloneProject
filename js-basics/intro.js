@@ -131,12 +131,12 @@ console.log(ninjas.length);
 //joining the array elements
 console.log(ninjas.join(', '));
 //getting the index of an element in the array
+//array methods
 result = ninjas.indexOf('chun-li');
 console.log("index of chun-li is", result);
 
 let results2 = ninjas.concat(['ken', 'crystal']);
 console.log("after concatination", results2);
-
-
-
-
+//adding or pushing the new elements to the array
+ninjas.push('salomon');
+console.log("after pushing salomon", ninjas);
