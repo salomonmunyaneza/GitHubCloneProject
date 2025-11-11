@@ -137,6 +137,48 @@ console.log("index of chun-li is", result);
 
 let results2 = ninjas.concat(['ken', 'crystal']);
 console.log("after concatination", results2);
-//adding or pushing the new elements to the array
+//adding or pushing the new elements to the array using push method
 ninjas.push('salomon');
 console.log("after pushing salomon", ninjas);
+
+//when removing the last element from the array using pop method
+ninjas.pop();
+console.log("after popping salomon", ninjas);
+
+//null and undefined
+//undefined means a variable has been declared but not assigned a value
+let marks;
+console.log(marks, marks + 3, `Marks is ${marks}`);
+
+//null means a variable has been declared and assigned a null value
+let score = null;
+console.log(score, score + 3, `Score is ${score}`);
+
+//boolean and comparisons
+console.log(true, false, "true", "false");
+
+//methods that return booleans
+let email2 = 'munyanezajoel@gmail.com';
+let verification = email2.includes('@');
+console.log("email verification:", verification);
+
+//other example and applicatin of booleanson the ordinary array 
+let names = ['mario', 'luigi', 'toad'];
+let check = names.includes('luigi');
+console.log("name check:", check);
+
+//comparison operators
+let age1 = 25;
+console.log(age1 == 25);
+console.log(age1 == 30);
+console.log(age1 != 30);
+console.log(age1 > 20);
+console.log(age1 < 20);
+console.log(age1 <= 25);
+console.log(age1 >= 25);
+
+//type conversion
+let score2 = '100';
+score2 = Number(score2);
+
+console.log(score2 + 1);
