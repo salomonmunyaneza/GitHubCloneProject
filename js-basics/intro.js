@@ -182,3 +182,5 @@ let score2 = '100';
 score2 = Number(score2);
 
 console.log(score2 + 1);
+//flow control for loops
+for (let i = 0; i < 5);
