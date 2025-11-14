@@ -182,5 +182,28 @@ let score2 = '100';
 score2 = Number(score2);
 
 console.log(score2 + 1);
-//flow control for loops
-for (let i = 0; i < 5);
+//flow control for loops/ loops in js 
+for (let i = 0; i < 5; i++) {
+    console.log('in loop', i);
+}
+console.log("loop finished")
+
+//creating the loop to iterate through an array
+const names2 = ['mario', 'luigi', 'toad', 'peach'];
+for (let i = 0; i < names2.length; i++) {
+    //console.log(names2[i]);
+    let html = `<div>${names2[i]}</div>`;
+    console.log(html);
+}
+//while loop
+
+let i = 0;
+while (i < 5) {
+    console.log('in while loop:', i);
+    i++;
+}
+
+//while loop to iterate through an array
+const names3 = ['yoshi', 'bowser', 'link', 'zelda'];
+
+
