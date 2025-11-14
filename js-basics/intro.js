@@ -197,13 +197,18 @@ for (let i = 0; i < names2.length; i++) {
 }
 //while loop
 
-let i = 0;
-while (i < 5) {
-    console.log('in while loop:', i);
-    i++;
-}
+//let i = 0;
+//while (i < 5) {
+// console.log('in while loop:', i);
+// i++;
+//}
 
 //while loop to iterate through an array
-const names3 = ['yoshi', 'bowser', 'link', 'zelda'];
-
-
+//let i = 0;
+//const names3 = ['mario', 'luigi', 'toad', 'peach'];
+//while (i < names3.length) {
+//  console.log(names3[i]);
+//i++;
+//}
+//do while loop
+let i = 5;
