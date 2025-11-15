@@ -306,7 +306,41 @@ switch (grade2) {
 }
 //variables and block scope
 let years = 30;
+
 if (true) {
     let years = 40;
-    console.log("inside block:", years);
+    let name = "joel";
+    console.log("inside block:", years, name);//the 
+    //variables defined inside the block are not accessible outside the block
+    if (true) {
+        let years = 50;
+        console.log("inside nested block:", years);
+    } // it is impssible to redifine the varable in the same scope
+    console.log("outside block:", years);
 }
+
+//function declaration and calling the function
+
+function greet() {
+    console.log("hello there");
+}   //this does not return any value we have to call function to execute it
+greet();
+greet();
+//function invoked or called her
+
+//and the function call leads to print any time called
+
+//function expressions
+const speak = function () {
+    console.log("good day!");
+};
+speak();
+//the call of the function can be done by
+//hoisting( adding the function call on the top of the function declaration
+//arguments and parameters
+const speak2 = function (name = 'luigi', time = 'night') {
+    console.log(`good ${time} ${name}`);
+}
+speak2('mario', 'morning');
+speak2('chun-li', 'afternoon');
+speak2();
