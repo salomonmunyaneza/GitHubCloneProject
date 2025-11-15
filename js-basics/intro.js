@@ -211,4 +211,20 @@ for (let i = 0; i < names2.length; i++) {
 //i++;
 //}
 //do while loop
-let i = 5;
+let i = 2;
+do {
+    console.log('val of i  is ', i);
+    i++;
+}
+while (i < 5);
+//if statement
+const age3 = 25;
+if (age3 > 18) {
+    console.log("you are adult");
+}
+
+//if statement on the array
+const ninjas2 = ['shaun', 'ryu', 'chun-li', 'yoshi', 'ken'];
+if (ninjas2.length > 3) {
+    console.log("we have a lot of ninjas");
+}
