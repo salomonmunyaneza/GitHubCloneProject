@@ -226,5 +226,12 @@ if (age3 > 18) {
 //if statement on the array
 const ninjas2 = ['shaun', 'ryu', 'chun-li', 'yoshi', 'ken'];
 if (ninjas2.length > 3) {
-    console.log("we have a lot of ninjas");
+    console.log("we've a lot of ninjas"); //if you used the 
+    //single quotes in the string you cannot use it again inside the string
+}//and if there is the use of the single quotes inside the string
+//you can use the double quotes to avoid the error
+
+const password = 'pass'
+if (password.length < 8) {
+    console.log("weak password");
 }
