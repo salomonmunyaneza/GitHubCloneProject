@@ -263,3 +263,50 @@ if (password4.length >= 8 && !password4.includes('@')) {
 if (password4.length >= 12 || password4.includes('@')) {
     console.log("the password is might be strong");
 }
+// ! :not
+
+let user = false;
+if (!user) {
+    console.log("you must be logged in to continue");
+}
+//break and continue statements
+const scores = [50, 25, 0, 30, 100, 20, 10];
+for (let i = 0; i < scores.length; i++) {
+    if (scores[i] === 0) {
+        continue;
+    }
+
+    if (scores[i] === 100) {
+        console.log("you got the top score");
+        break;
+    }
+    console.log("your score is", scores[i]);
+}
+//using if statement 
+const grade = "D"
+if (grade === "A") {
+
+} else if (grade === "B") {
+} else if (grade === "C") {
+}
+//SWITCH STATEMENT
+const grade2 = "B"
+switch (grade2) {
+    case "A":
+        console.log("you got an A");
+        break;
+    case "B":
+        console.log("you got a B");
+        break;
+    case "C":
+        console.log("you got a C");
+        break;
+    default:
+        console.log("not a valid grade");
+}
+//variables and block scope
+let years = 30;
+if (true) {
+    let years = 40;
+    console.log("inside block:", years);
+}
