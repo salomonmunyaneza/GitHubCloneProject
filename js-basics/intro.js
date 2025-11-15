@@ -235,3 +235,31 @@ const password = 'pass'
 if (password.length < 8) {
     console.log("weak password");
 }
+const password2 = 'mypassword1234@'
+if (password2.length >= 8) {
+    console.log("strong password");
+}
+//else statement 
+const password3 = 'password@2929912'
+if (password3.length < 8) {
+    console.log("password is weak");
+} else if (password.length > 12) {
+    console.log("password is might be strong");
+} else {
+    console.log("password length is enough");
+}//and this print the one option among the two options and we 
+// can add as many else if as we want and the printed is the matching statement
+
+//logical operators - OR || and AND &&
+const password4 = 'p@ssword1234'
+if (password4.length >= 8 && password4.includes('@')) {
+    console.log("the password is contain special character and is strong");
+}
+//&& :and   
+if (password4.length >= 8 && !password4.includes('@')) {
+    console.log("the password is strong but no special character");
+}
+// || :or
+if (password4.length >= 12 || password4.includes('@')) {
+    console.log("the password is might be strong");
+}
